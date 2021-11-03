@@ -1,0 +1,33 @@
+.home-container{
+    height: 200vh;
+    width: 100%;
+
+    .banner{
+        position: relative;
+    }
+    .btn{
+        text-align: center;
+        margin: auto;
+    }
+    .bottom{
+        padding:10px;
+        height: 30%;
+        .left{
+            width: 50%;
+            display: block;
+            float: left;
+        }
+        .right{
+            width: 45%;
+            display: block;
+            float: right;
+            text-align: justify;
+        }
+    }
+    .down{
+        padding: 20px;
+        display: block;
+        width: 90%;
+        text-align: justify;
+    }
+}

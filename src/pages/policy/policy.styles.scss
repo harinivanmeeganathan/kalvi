@@ -1,0 +1,43 @@
+.policy-container{
+    margin: auto;
+    padding: 10px;
+    height: 140vh;
+    width: 80%;
+    .pol-head{
+        padding: 10px;
+        .topic{
+        font-size: x-large;
+        color: #480ca8;
+        font-weight: 500;
+    }
+    }
+    .outer-para{
+        text-align: justify;
+        line-height: 1.5rem;
+        .data{
+            margin: 5px;
+        }
+    }
+
+    .hyper{
+        text-align: justify;
+        line-height: 1.5rem;
+        padding-top: 15px;
+        .hyper-pol{
+            font-size: x-large;
+            color: #480ca8;
+            font-weight: 500;
+    
+        }
+
+        .subhead{
+            padding-top: 25px;
+            .subheadpol{
+                font-size: large;
+                color: #480ca8;
+                font-weight: 600;
+            }
+        }
+    }
+
+}
