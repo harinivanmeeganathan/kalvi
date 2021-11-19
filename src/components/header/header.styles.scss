@@ -13,6 +13,10 @@
     justify-content: space-between;
     margin-bottom: 25px;
     background-color: #fff;
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+      height: 50px;
+      width: 80%;
+    }
     .logo-container {
       height: 100%;
       .logo{
@@ -38,7 +42,9 @@
           border: none;
           color: #fff;
         }
-  
+        @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+          font-size: x-small;
+        }
     }
     }
   }

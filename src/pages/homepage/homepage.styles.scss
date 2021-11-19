@@ -4,10 +4,29 @@
 
     .banner{
         position: relative;
+        .ban{
+            @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+            width: 360px;
+            }
+        }
+        .ilamkalvi{
+            .ilamkalvi_1{
+                .ilam{
+                    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+                        font-size : x-small;
+                        }
+                    }                        
+            }
+        }    
+        
     }
     .btn{
         text-align: center;
         margin: auto;
+        @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+            width: 6rem;
+            font-size: x-small;
+        }
     }
     .bottom{
         padding:10px;
@@ -16,12 +35,17 @@
             width: 50%;
             display: block;
             float: left;
-        }
+             }
         .right{
             width: 45%;
             display: block;
             float: right;
             text-align: justify;
+            .ilam{
+                @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+                    font-size : x-small;
+                    }
+            }
         }
     }
     .down{
@@ -29,5 +53,10 @@
         display: block;
         width: 90%;
         text-align: justify;
+        .ilam{
+            @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation:portrait) {
+                font-size : x-small;
+                }
+        }
     }
-}
+  }

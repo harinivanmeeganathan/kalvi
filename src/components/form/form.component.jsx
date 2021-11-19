@@ -28,7 +28,7 @@ export default function FormDialog() {
   };
 
   return (
-    <div>
+    <div  className = "formcheck">
       <Button variant="outlined" onClick={handleClickOpen}>
       தன்னார்வலர்களுக்கான பதிவேற்று படிவத்தை தொடங்கு / Click here to start the Volunteer Registration Form
       </Button>
